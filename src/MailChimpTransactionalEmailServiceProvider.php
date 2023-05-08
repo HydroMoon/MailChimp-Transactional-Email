@@ -13,7 +13,7 @@ class MailChimpTransactionalEmailServiceProvider extends PackageServiceProvider
     {
         $package
             ->name('laravel-mailchimp')
-            ->hasConfigFile();
+            ->hasConfigFile('mailchimp-transactional-email');
     }
 
     public function bootingPackage()
