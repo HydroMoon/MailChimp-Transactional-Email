@@ -12,10 +12,10 @@ class MailChimpService
      */
     protected $messages;
 
-    public function __construct()
+    public function __construct($apiKey)
     {
         $this->mailChimpClient = new ApiClient();
-        $this->mailChimpClient->setApiKey('');
+        $this->mailChimpClient->setApiKey($apiKey);
         $this->messages = $this->mailChimpClient->messages;
     }
 
