@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace ApplabQatar\MailChimpTransactionalEmail\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class MailChimpTransactionalEmailCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'mailchimp-transactional-email';
 
     public $description = 'My command';
 
