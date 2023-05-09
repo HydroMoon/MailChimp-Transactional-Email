@@ -5,7 +5,7 @@ namespace ApplabQatar\MailChimpTransactionalEmail\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method static sendMessage(array $options)
+ * @method static mixed sendMessage(array $options)
  *
  * @see \App\Facade\LaravelChimp
  */
