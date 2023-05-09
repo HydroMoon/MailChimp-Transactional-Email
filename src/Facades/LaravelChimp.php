@@ -7,9 +7,9 @@ use Illuminate\Support\Facades\Facade;
 /**
  * @method static sendMessage(array $options)
  *
- * @see \App\Services\MailChimpService
+ * @see \App\Facade\LaravelChimp
  */
-class MailChimpTransactionalEmail extends Facade
+class LaravelChimp extends Facade
 {
     protected static function getFacadeAccessor()
     {
